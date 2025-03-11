@@ -1,0 +1,43 @@
+.title{
+    font-size: 8px;
+}
+.body{
+    max-width: 1536px;
+}
+.nav{
+    width: auto;
+    height: 22px;
+}
+.task{
+    font-size: 5px;
+}
+.divone{
+    width: 90px;
+}
+.discover {
+    width: 120px;
+}
+.shop{
+    font-size: 4px;
+}
+.fix{
+    font-size: 6px;
+}
+.dad{
+    font-size: 4px;
+}
+.completed{
+    font-size: 6px;
+    border:skyblue solid 1px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+.completedb{
+    font-size: 4px;
+    border:skyblue solid 1px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
