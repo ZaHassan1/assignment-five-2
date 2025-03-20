@@ -1,16 +1,79 @@
-document.getElementById('complete').addEventListener('click',function(){
-    
-   let taskElement = document.getElementById('task');
-   let numberElement = 6;
 
-   document.getElementById('numver');
+function handleTask (task){
 
-   let convertTask = parseInt(taskElement.innerText);
-   let convertTitle = 24;
-   parseInt(numberElement.innerText);
+let taskElement = Number(document.getElementById('task').innerText)
 
-   if(convertTask >0){
-    taskElement.innerText = convertTask -1;
-    numberElement.innerText = convertTitle +1;
-   }
-})
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
+function handleTask (task){
+
+let taskElement = Number(document.getElementById('task').innerText)
+
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
+function handleTask (task){
+
+let taskElement = Number(document.getElementById('task').innerText)
+
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
+function handleTask (task){
+
+let taskElement = Number(document.getElementById('task').innerText)
+
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
+function handleTask (task){
+
+let taskElement = Number(document.getElementById('task').innerText)
+
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
+function handleTask (task){
+
+let taskElement = Number(document.getElementById('task').innerText)
+
+  
+
+   const completeTask =  Number(document.getElementById('numver').innerText)
+   // console.log(task);
+   document.getElementById('task').innerText = taskElement - 1;
+   document.getElementById('numver').innerText = completeTask + 1;
+   console.log(completeTask,taskElement);
+   document.getElementById(task.btn).setAttribute('disabled',true)
+}
